@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.header-menu-item {
+  font: var(--fonte-2-b);
+  color: var(--cor-5);
+}
+
+.header-menu-item:hover {
+  color: var(--cor-4);
+}
