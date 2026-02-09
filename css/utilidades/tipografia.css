@@ -6,3 +6,20 @@
   --fonte-3: 800 1.25rem "Montserrat", sans-serif;
   --fonte-4: 800 2.25rem "Montserrat", sans-serif;
 }
+
+@media (max-width: 992px) {
+  :root {
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --fonte-2-b: 600 1rem "Montserrat", sans-serif;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --fonte-2-b: 600 0.785rem "Montserrat", sans-serif;
+  }
+}
