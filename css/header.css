@@ -1,6 +1,6 @@
 .header-bg {
   background-color: var(--cor-2);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 .header {
@@ -21,13 +21,13 @@
 }
 
 .header-menu-item:hover {
-  color: var(--cor-4);
+  color: var(--cor-5);
   width: 100%;
 }
 
 .header-menu-item::after {
   content: "";
-  background-color: var(--cor-4);
+  background-color: var(--cor-5);
   height: 2.5px;
   width: 0;
   display: block;

@@ -5,4 +5,54 @@
 .introducao {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  place-items: center;
+}
+
+.introducao-conteudo h1 {
+  font: var(--fonte-3);
+  margin-bottom: var(--margem-p);
+  color: var(--cor-5);
+}
+
+.introducao-conteudo p {
+  font: var(--fonte-2);
+  margin-bottom: var(--margem-m);
+}
+
+.introducao-conteudo strong {
+  font: var(--fonte-2-b);
+}
+
+.introducao-conteudo-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: var(--margem-p);
+}
+
+.introducao-conteudo-form input {
+  padding: 15px;
+  margin-bottom: var(--margem-p);
+  border-radius: 5px;
+  border: none;
+  font: var(--fonte-1);
+}
+
+.introducao-conteudo-form button {
+  border: none;
+  background-color: var(--cor-3);
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin-top: var(--margem-m);
+  font: var(--fonte-2-ub);
+  color: var(--cor-1);
+  max-width: 350px;
+}
+
+.introducao-conteudo-form button:hover {
+  background-color: var(--cor-4);
+}
+
+.introducao-imagem img {
+  max-width: 600px;
 }
