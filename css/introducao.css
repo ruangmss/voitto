@@ -21,7 +21,8 @@
 }
 
 .introducao-conteudo strong {
-  font: var(--fonte-2-b);
+  font: var(--fonte-2);
+  font-weight: 600;
 }
 
 .introducao-conteudo-form {
@@ -36,6 +37,10 @@
   border-radius: 5px;
   border: none;
   font: var(--fonte-1);
+}
+
+.introducao-conteudo-form input:last-of-type {
+  margin: 0;
 }
 
 .introducao-conteudo-form button {
@@ -53,6 +58,28 @@
   background-color: var(--cor-4);
 }
 
-.introducao-imagem img {
-  max-width: 600px;
+@media (max-width: 992px) {
+  .introducao {
+    grid-template-columns: 1fr;
+  }
+
+  .introducao-conteudo h1,
+  .introducao-conteudo p {
+    text-align: center;
+  }
+
+  .introducao-conteudo button {
+    align-self: center;
+  }
+
+  .introducao-imagem {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .introducao-conteudo strong {
+    display: block;
+    justify-self: center;
+  }
 }

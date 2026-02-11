@@ -9,17 +9,27 @@
 
 @media (max-width: 992px) {
   :root {
+    --fonte-3: 800 2.125rem "Montserrat", sans-serif;
+    --fonte-2-ub: 800 1.125rem "Montserrat", sans-serif;
   }
 }
 
 @media (max-width: 768px) {
   :root {
+    --fonte-3: 800 1.75rem "Montserrat", sans-serif;
+    --fonte-2-ub: 800 1rem "Montserrat", sans-serif;
     --fonte-2-b: 600 1rem "Montserrat", sans-serif;
+    --fonte-2-m: 500 1.25rem "Montserrat", sans-serif;
+    --fonte-2: 400 1.125rem "Montserrat", sans-serif;
   }
 }
 
 @media (max-width: 480px) {
   :root {
+    --fonte-3: 800 1.5rem "Montserrat", sans-serif;
+    --fonte-2-ub: 800 0.875rem "Montserrat", sans-serif;
     --fonte-2-b: 600 0.785rem "Montserrat", sans-serif;
+    --fonte-2: 400 1rem "Montserrat", sans-serif;
+    --fonte-1: 400 0.75rem "Montserrat", sans-serif;
   }
 }
