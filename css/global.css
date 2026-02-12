@@ -8,6 +8,10 @@
   outline: 1.75px solid var(--cor-5);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ul {
   list-style: none;
 }
@@ -15,7 +19,7 @@ ul {
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 20px 30px;
+  padding: 30px;
 }
 
 a {
@@ -36,4 +40,10 @@ img {
 
 button {
   cursor: pointer;
+}
+
+h1,
+h2,
+h3 {
+  font: var(--fonte-3);
 }

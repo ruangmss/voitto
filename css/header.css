@@ -1,12 +1,13 @@
 .header-bg {
   background-color: var(--cor-2);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 1px solid rgba(26, 46, 53, 0.1);
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 30px;
 }
 
 .header-menu {
@@ -69,6 +70,7 @@
   }
 
   .header-menu-item {
+    font-size: 0.7rem;
     padding: 7.5px 10px;
   }
 }
