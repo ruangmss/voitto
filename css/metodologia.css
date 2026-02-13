@@ -1,0 +1,53 @@
+.metodologia-bg {
+  background: linear-gradient(to left, var(--cor-3) 77.5%, #fff 70%);
+}
+
+.metodologia {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 30px;
+  place-items: center;
+}
+
+.metodologia-imagem img {
+  max-width: 400px;
+  border-radius: 5px;
+}
+
+.metodologia-conteudo h2 {
+  font: var(--fonte-3);
+  margin-bottom: var(--margem-m);
+}
+
+.metodologia-conteudo p {
+  font: var(--fonte-2);
+  margin-bottom: var(--margem-p);
+}
+
+.metodologia-conteudo a {
+  background-color: var(--cor-1);
+  padding: 15px 30px;
+  border-radius: 5px;
+  margin-top: var(--margem-m);
+  font: var(--fonte-2-ub);
+  color: var(--cor-3);
+}
+
+.metodologia-conteudo a:hover {
+  background-color: var(--cor-2);
+}
+
+@media (max-width: 992px) {
+  .metodologia-bg {
+    background: var(--cor-3);
+  }
+
+  .metodologia {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .metodologia-imagem {
+    display: none;
+  }
+}

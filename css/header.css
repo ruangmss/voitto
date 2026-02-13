@@ -62,6 +62,11 @@
     flex-direction: column;
     place-items: center;
   }
+
+  .header-imagem img {
+    max-width: 60px;
+    max-height: 60px;
+  }
 }
 
 @media (max-width: 480px) {
