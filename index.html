@@ -9,31 +9,31 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400..800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="shortcut icon" href="./imagens/logo-voitto.svg" type="img/svg+xml">
+  <link rel="shortcut icon" href="./imagens/favicon-voitto.svg" type="image/svg+xml">
   <title>Voitto - Capacitações Profissionais</title>
 </head>
 
 <body>
+  <header class="header-bg">
+    <nav class="header container" aria-label="Principal">
+      <div class="header-imagem">
+        <a href="./index.html"><img src="./imagens/logo-voitto.png" width="100" height="70" alt="Logo Voitto"></a>
+      </div>
+      <ul class="header-menu">
+        <li class="header-menu-item"><a href="#inscricao">Inscrição</a></li>
+        <li class="header-menu-item"><a href="#capacitacao">Capacitação</a></li>
+        <li class="header-menu-item"><a href="#metodologia">Metodologia</a></li>
+      </ul>
+    </nav>
+  </header>
   <main>
-    <header class="header-bg">
-      <nav class="header container">
-        <div class="header-imagem">
-          <a href="./index.html"><img src="./imagens/logo-voitto.svg" alt="Logo Voitto"></a>
-        </div>
-        <ul class="header-menu">
-          <li class="header-menu-item"><a href="#inscricao">Inscrição</a></li>
-          <li class="header-menu-item"><a href="#capacitacao">Capacitação</a></li>
-          <li class="header-menu-item"><a href="#metodologia">Metodologia</a></li>
-        </ul>
-      </nav>
-    </header>
     <section class="introducao-bg" id="inscricao">
       <div class="introducao container">
         <div class="introducao-conteudo">
           <h1>Participe agora da maior comunidade de Lean Six Sigma do mundo!</h1>
-          <p>Faça sua inscrição para o evento Think Lean, que ocorrerá nos dias 16, 17 e 18 de Setembro, e ganhe acesso ao grupo exlusico do evento no telegram.</p>
+          <p>Faça sua inscrição para o evento Think Lean, que ocorrerá nos dias 16, 17 e 18 de Setembro, e ganhe acesso ao grupo exlusivo do evento no Telegram.</p>
           <strong>Não perca esta oportunidade!</strong>
-          <form action="./" method="post" class="introducao-conteudo-form">
+          <form action="https://formspree.io/f/mkovjdaa" method="post" class="introducao-conteudo-form" id="form-inscricao">
             <input type="text" name="nome" placeholder="Digite seu nome" required>
             <input type="email" name="email" placeholder="Digite seu e-mail" required>
             <button type="submit">Quero me inscrever!</button>
@@ -64,12 +64,25 @@
         </div>
         <div class="metodologia-conteudo">
           <h2>Seja um especialista com nossa Formação Lean Six Sigma!</h2>
-          <p>Aprenda a metodologia consagrada por resolver problemas e impulsionar resultados das empresas. Nessa formação você terá acesso a todos os cursos da Carreira Lean Seis Sigma, do White ao Master Black Belt, além dos projetos para obtenção do titulo de especialista e do ciclo de mentoria te ajudar durante os projetos.</p>
+          <p>Aprenda a metodologia consagrada por resolver problemas e impulsionar resultados das empresas. Nessa formação você terá acesso a todos os cursos da Carreira Lean Seis Sigma, do White ao Master Black Belt, além dos projetos para obtenção do título de especialista e do ciclo de mentoria para te ajudar durante os projetos.</p>
           <a href="./">Quero me capacitar!</a>
         </div>
       </div>
     </section>
   </main>
+  <footer class="footer-bg">
+    <div class="footer container">
+      <div class="footer-conteudo">
+        <p>© 2026 Grupo Voitto. Todos os direitos reservados.</p>
+      </div>
+      <div class="footer-redes">
+        <a href="https://www.instagram.com/grupovoitto/" target="_blank" rel="noopener noreferrer"><img src="./imagens/logo-instagram.svg" alt="Logo Instagram" width="50" height="30"></a>
+        <a href="https://www.linkedin.com/school/voitto-treinamento-e-desenvolvimento/?originalSubdomain=br" target="_blank" rel="noopener noreferrer"><img src="./imagens/logo-linkedin.svg" alt="Logo LinkedIn" width="50" height="30"></a>
+        <a href="https://www.facebook.com/grupovoitto" target="_blank" rel="noopener noreferrer"><img src="./imagens/logo-facebook.svg" alt="Logo Facebook" width=" 50" height="35"></a>
+      </div>
+    </div>
+  </footer>
+  <script src="./script/script.js"></script>
 </body>
 
 </html>

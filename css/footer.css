@@ -1,0 +1,30 @@
+.footer-bg {
+  background-color: var(--cor-3);
+  border-top: 1px solid rgba(26, 46, 53, 0.1);
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.footer-conteudo {
+  font: var(--fonte-2);
+  text-align: center;
+}
+
+.footer-redes {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    gap: 20px;
+  }
+}
